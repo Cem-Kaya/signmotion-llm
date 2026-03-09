@@ -33,6 +33,11 @@ htmlcov/
 .env
 .env.*
 
+# Local runtime and scratch files
+*.log
+*.pid
+.gitconfig.ghtest
+
 # Editor and OS noise
 .DS_Store
 Thumbs.db
