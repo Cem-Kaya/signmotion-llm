@@ -1,0 +1,53 @@
+# Python bytecode and extension modules
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test, type-check, and notebook caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Local environment files
+.env
+.env.*
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Model weights and training checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.hdf5
+
+# Windows metadata sidecars copied into Linux filesystems
+*:Zone.Identifier

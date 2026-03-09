@@ -1,0 +1,21 @@
+{
+  "max_epochs_configured": 1000,
+  "epochs_ran": 312,
+  "best_epoch": 237,
+  "best_val_loss": 0.2678406834602356,
+  "early_stop_patience": 75,
+  "checkpoint_every": 25,
+  "max_checkpoints_kept": 10,
+  "checkpoints_kept": [
+    "adamw_epoch_0075.pt",
+    "adamw_epoch_0100.pt",
+    "adamw_epoch_0125.pt",
+    "adamw_epoch_0150.pt",
+    "adamw_epoch_0175.pt",
+    "adamw_epoch_0200.pt",
+    "adamw_epoch_0225.pt",
+    "adamw_epoch_0250.pt",
+    "adamw_epoch_0275.pt",
+    "adamw_epoch_0300.pt"
+  ]
+}
